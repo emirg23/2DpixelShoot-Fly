@@ -4,7 +4,7 @@ I'm 2nd year student and don't have much experience so while I got time, I don't
 CONTROLS
 
 
-esc / pause button = pause / resume
+esc / pause button = pause/resume
 
 
 
