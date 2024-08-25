@@ -6,10 +6,21 @@ CONTROLS
 
 esc / pause button = pause
 
+
+
 "w" / up arrow = fly up
+
+
 "a" / left arrow = fly left
+
+
 "s" / down arrow = fly down
+
+
 "d" / right arrow = fly right
+
+
+
 
 "e" / space = shoot
 "f" = toggle auto-shoot mode
