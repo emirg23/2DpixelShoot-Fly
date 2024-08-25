@@ -4,7 +4,7 @@ I'm 2nd year student and don't have much experience so while I got time, I don't
 CONTROLS
 
 
-esc / pause button = pause
+esc / pause button = pause / resume
 
 
 
@@ -25,7 +25,7 @@ esc / pause button = pause
 "e" / space = shoot
 
 
-"f" = toggle auto-shoot mode
+"f" = enable/disable auto-shoot mode
 
 
 <img width="1440" alt="main screen" src="https://github.com/user-attachments/assets/941744c0-ef65-4370-9689-8f7bbc07c5b9">
