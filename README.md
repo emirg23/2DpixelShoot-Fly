@@ -23,6 +23,8 @@ esc / pause button = pause
 
 
 "e" / space = shoot
+
+
 "f" = toggle auto-shoot mode
 
 
