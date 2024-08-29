@@ -19,9 +19,11 @@ public class PlayAgainBehaviour : MonoBehaviour
     public GameObject canvas;
     public GameObject youwontext;
     public GameObject youlosetext;
+    public GameObject shootbar;
 
     private TextMeshProUGUI healthText;
     private Text scoreText;
+
     
     void Start()
     {
@@ -60,6 +62,9 @@ public class PlayAgainBehaviour : MonoBehaviour
             healthText.GameObject().SetActive(true);
             healthText.text = $"<sprite name=\"emirghead\">{emirghealth.health}x";
             scoreText.text = "SCORE:0";
+
+            
+            shootbar.transform.localScale = new Vector3(0, shootbar.transform.localScale.y, shootbar.transform.localScale.z);
 
             endpage.SetActive(false);
 

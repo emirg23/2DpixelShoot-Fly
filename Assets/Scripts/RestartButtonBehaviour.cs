@@ -11,7 +11,8 @@ public class RestartButtonBehaviour : MonoBehaviour
     public GameObject ingamebackground;
     public GameObject jordan1spawner;
     public GameObject pausepage;
-    
+    public GameObject shootbar;
+
     public AudioSource music;
     
     private GameObject emirg;
@@ -20,6 +21,7 @@ public class RestartButtonBehaviour : MonoBehaviour
     
     private TextMeshProUGUI healthText;
     private Text scoreText;
+    
     void Start()
     {
         emirg = GameObject.FindWithTag("emirg");
@@ -77,6 +79,8 @@ public class RestartButtonBehaviour : MonoBehaviour
         backgroundcanvas.SetActive(true);
         healthText.text = $"<sprite name=\"emirghead\">{emirghealth.health}x";
         scoreText.text = "SCORE:0";
+
+        shootbar.transform.localScale = new Vector3(0, shootbar.transform.localScale.y, shootbar.transform.localScale.z);
 
         Time.timeScale = 1;
         pausepage.SetActive(false);

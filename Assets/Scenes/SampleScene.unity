@@ -546,6 +546,7 @@ MonoBehaviour:
   ingamebackground: {fileID: 1259411010}
   jordan1spawner: {fileID: 524513097}
   pausepage: {fileID: 1239982617}
+  shootbar: {fileID: 1817185582}
   music: {fileID: 119447996}
 --- !u!1 &119447994
 GameObject:
@@ -1443,6 +1444,7 @@ MonoBehaviour:
   canvas: {fileID: 774326414}
   youwontext: {fileID: 1521843308}
   youlosetext: {fileID: 1522915258}
+  shootbar: {fileID: 1817185582}
 --- !u!1 &323606057
 GameObject:
   m_ObjectHideFlags: 0
